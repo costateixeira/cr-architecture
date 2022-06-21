@@ -14,8 +14,9 @@ baseurl: /documentation/      # place folder name if the site is served in a sub
 
 
 plugins:
+#  - jekyll-spaceship  
 #  - jekyll-plantuml
-  - jekyll-spaceship  
+  - jekyll-diagrams
 
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
