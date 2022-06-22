@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 domain: costateixeira.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://costateixeira.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /documentation/      # place folder name if the site is served in a subfolder   
+baseurl: /cr-architecture/      # place folder name if the site is served in a subfolder   
 
 
 plugins:
@@ -27,7 +27,7 @@ search_enabled: true
 #logo: "/assets/images/just-the-docs.png"
 aux_links:
   "on GitHub":
-    - "//github.com/costateixeira/documentation"
+    - "//github.com/costateixeira/cr-architecture"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -37,7 +37,7 @@ heading_anchors: true
 
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/costateixeira/documentation" # the github URL for your repo
+gh_edit_repository: "https://github.com/costateixeira/cr-architecture" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
