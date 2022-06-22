@@ -52,14 +52,14 @@ title Patient-level data
     participant "Patient-Level \n Data Repository" as R
 
     alt FHIR API
-'      POC2->>POC2: 1. [[./content-1.html Create FHIR Bundle]]
+      POC2->>POC2: C1. Create [[./content-1.html FHIR Bundle]]
       POC2->>IOL: T1. [[./transaction-1.html{Transaction 1 specifications} Send FHIR Bundle]]
       activate IOL
       activate POC2
       deactivate POC2
       deactivate IOL
     else Episode data
-      POC1->>POC1: C1. [[./content-2.html Questionnaire]]
+      POC1->>POC1: C2. [[./content-2.html Questionnaire]]
       activate POC1
       POC1->>IOL: T2. [[./transaction-2.html Submit Questionnaire]]
       deactivate POC1
