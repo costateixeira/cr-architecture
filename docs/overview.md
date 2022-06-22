@@ -51,26 +51,26 @@ title Patient-level data
     end box
     participant "Patient-Level \n Data Repository" as R
 
-    alt Episode data
-      POC1->>POC1: 1. [[./content-2.html Questionnaire]]
-      activate POC1
-      POC1->>IOL: 2. Submit [[./transaction-2.html Questionnaire]]
-      deactivate POC1
-      activate IOL
-      IOL->>IOL: 2. [[./operation-1.html Extract]]
-      deactivate IOL
-    else FHIR API
+    alt FHIR API
 '      POC2->>POC2: 1. [[./content-1.html Create FHIR Bundle]]
-      POC2->>IOL: 2. [[./transaction-1.html{Transaction 1 specifications} Send FHIR Bundle]]
+      POC2->>IOL: T1. [[./transaction-1.html{Transaction 1 specifications} Send FHIR Bundle]]
       activate IOL
       activate POC2
       deactivate POC2
       deactivate IOL
+    else Episode data
+      POC1->>POC1: C1. [[./content-2.html Questionnaire]]
+      activate POC1
+      POC1->>IOL: T2. [[./transaction-2.html Submit Questionnaire]]
+      deactivate POC1
+      activate IOL
+      IOL->>IOL: O1. [[./operation-1.html Extract]]
+      deactivate IOL
 
     else Legacy data import
-      POC3->>POC3: 1. [[./operation-2.html Batch convert to Bundles]]
+      POC3->>POC3: O2. [[./operation-2.html Batch convert to Bundles]]
       activate POC3
-      POC3->>IOL: 2. [[./transaction-1.html{Transaction 1 specifications} Send FHIR Bundle]]
+      POC3->>IOL: T1. [[./transaction-1.html{Transaction 1 specifications} Send FHIR Bundle]]
       activate IOL
       deactivate POC3
       deactivate IOL
