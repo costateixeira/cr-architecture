@@ -15,8 +15,8 @@ baseurl: /cr-architecture/      # place folder name if the site is served in a s
 
 plugins:
 #  - jekyll-spaceship  
-#  - jekyll-plantuml
-  - jekyll-diagrams
+  - jekyll-plantuml
+#  - jekyll-diagrams
 
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
