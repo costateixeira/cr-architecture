@@ -1,0 +1,134 @@
+{"0": {
+    "doc": "C1. FHIR Bundle",
+    "title": "Content 1 - FHIR Bundle",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/content-1.html#content-1---fhir-bundle",
+    "relUrl": "/docs/content-1.html#content-1---fhir-bundle"
+  },"1": {
+    "doc": "C1. FHIR Bundle",
+    "title": "C1. FHIR Bundle",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/content-1.html",
+    "relUrl": "/docs/content-1.html"
+  },"2": {
+    "doc": "C2. FHIR Questionnaire",
+    "title": "Questionnaire definitions",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/content-2.html#questionnaire-definitions",
+    "relUrl": "/docs/content-2.html#questionnaire-definitions"
+  },"3": {
+    "doc": "C2. FHIR Questionnaire",
+    "title": "C2. FHIR Questionnaire",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/content-2.html",
+    "relUrl": "/docs/content-2.html"
+  },"4": {
+    "doc": "Content Specifications",
+    "title": "Content Specifications",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/content.html",
+    "relUrl": "/docs/content.html"
+  },"5": {
+    "doc": "Home",
+    "title": "Welcome to the documentation hub",
+    "content": "A simple, ready-to-use template for adding documentation using github pages. Key features: . | Editing done in github | Uses github pages and a github action to deploy the content to &lt;handle&gt;.github.io/&lt;repo&gt; | Supports markdown editing | Supports diagrams (written directly in the markdown): PlantUML, Mermaid, others | Uses the Just-the-docs Jekyll theme . | Search functionality built in | Hierarchical navigation with left-side menu | Other features - feel free to discover | . | . ",
+    "url": "https://costateixeira.github.io/cr-architecture/#welcome-to-the-documentation-hub",
+    "relUrl": "/#welcome-to-the-documentation-hub"
+  },"6": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/",
+    "relUrl": "/"
+  },"7": {
+    "doc": "O1. Extract QResponse",
+    "title": "Extract QuestionnaireResponse",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/operation-1.html#extract-questionnaireresponse",
+    "relUrl": "/docs/operation-1.html#extract-questionnaireresponse"
+  },"8": {
+    "doc": "O1. Extract QResponse",
+    "title": "O1. Extract QResponse",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/operation-1.html",
+    "relUrl": "/docs/operation-1.html"
+  },"9": {
+    "doc": "O2. Extract batch data",
+    "title": "Extract and convert legacy data",
+    "content": "mAtches / BundleMaker… . ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/operation-2.html#extract-and-convert-legacy-data",
+    "relUrl": "/docs/operation-2.html#extract-and-convert-legacy-data"
+  },"10": {
+    "doc": "O2. Extract batch data",
+    "title": "O2. Extract batch data",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/operation-2.html",
+    "relUrl": "/docs/operation-2.html"
+  },"11": {
+    "doc": "Operations",
+    "title": "Operations",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/operations.html",
+    "relUrl": "/docs/operations.html"
+  },"12": {
+    "doc": "Overview",
+    "title": "Exchange overview",
+    "content": "The exchange of patient data can be seen as follows: . | Data is available or entered in a system - per event, or existing aggregated data | Data is submitted in a given format to the interoperability layer 2.1.Several options are possible, and they may imply different interface specifications | The interoperability layer may pre-process the Bundle | The Bundle containing Case data is saved to a repository | . ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/overview.html#exchange-overview",
+    "relUrl": "/docs/overview.html#exchange-overview"
+  },"13": {
+    "doc": "Overview",
+    "title": "Case Data Creation options",
+    "content": ". ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/overview.html#case-data-creation-options",
+    "relUrl": "/docs/overview.html#case-data-creation-options"
+  },"14": {
+    "doc": "Overview",
+    "title": "Architecture blocks",
+    "content": ". here is the description . ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/overview.html#architecture-blocks",
+    "relUrl": "/docs/overview.html#architecture-blocks"
+  },"15": {
+    "doc": "Overview",
+    "title": "Overview",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/overview.html",
+    "relUrl": "/docs/overview.html"
+  },"16": {
+    "doc": "Specifications",
+    "title": "Specifications",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/specifications.html",
+    "relUrl": "/docs/specifications.html"
+  },"17": {
+    "doc": "T1. PUT FHIR Bundle",
+    "title": "Transaction 1 - PUT FHIR Bundle",
+    "content": "FHIR IDs are set by the client. We use a PUT method so that if message need to resent or replayed, resource just get upserted rather than recreated. This helps the client not care so much about bundles/resources that have already been sent and it makes it easier to replay messages at any point in the flow in case of failures. ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/transaction-1.html#transaction-1---put-fhir-bundle",
+    "relUrl": "/docs/transaction-1.html#transaction-1---put-fhir-bundle"
+  },"18": {
+    "doc": "T1. PUT FHIR Bundle",
+    "title": "T1. PUT FHIR Bundle",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/transaction-1.html",
+    "relUrl": "/docs/transaction-1.html"
+  },"19": {
+    "doc": "T2. PUT QResponse",
+    "title": "Transaction 2 - PUT/POST Questionnaire Response",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/transaction-2.html#transaction-2---putpost-questionnaire-response",
+    "relUrl": "/docs/transaction-2.html#transaction-2---putpost-questionnaire-response"
+  },"20": {
+    "doc": "T2. PUT QResponse",
+    "title": "T2. PUT QResponse",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/transaction-2.html",
+    "relUrl": "/docs/transaction-2.html"
+  },"21": {
+    "doc": "Transactions",
+    "title": "Transactions",
+    "content": " ",
+    "url": "https://costateixeira.github.io/cr-architecture/docs/transactions.html",
+    "relUrl": "/docs/transactions.html"
+  }
+}
