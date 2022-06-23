@@ -20,7 +20,7 @@ group :jekyll_plugins do
   gem "just-the-docs"
 #  gem 'jekyll-spaceship'
 #  gem 'jekyll-plantuml'
-gem 'jekyll-diagrams'
+  gem 'jekyll-diagrams'
 end
 
 
